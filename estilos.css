@@ -62,7 +62,8 @@ p:nth-of-type(3){
     text-align: right;
 }*/
 
-.CuadrosMAYR3 {
+/*CLASE: CARDS*/
+/*.CuadrosMAYR3 {
     border: 1px solid #000000;
     padding: 8px;
     margin: 10px 20px;
@@ -100,4 +101,28 @@ p:nth-of-type(3){
     font-weight: 700px;
     color: blue;
     line-height: 2;
+}*/
+
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid red;
+    display: inline-block;
+}
+
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    display: inline-block;
+}
+
+#circulo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: yellow;
+    display: inline-block;
 }
