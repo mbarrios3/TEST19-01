@@ -103,7 +103,8 @@ p:nth-of-type(3){
     line-height: 2;
 }*/
 
-#triangulo{
+/*CLASE: Practica divs - Figuras
+ #triangulo{
     width: 0;
     height: 0;
     border-left: 200px solid transparent;
@@ -125,4 +126,51 @@ p:nth-of-type(3){
     border-radius: 50%;
     background: yellow;
     display: inline-block;
+}*/
+
+/*Práctica Modificación de Párrafos: Propiedades*/
+p.P-1 {
+    margin: 10px 5px; /*Crea espacios alrededor de un elemento (up,down,left,right) al que se le aplique la propiedad*/
+    padding: 4px 10px; /*Crea espacios al contenido del elemento en todas sus direcciones. Está dentro del margin*/
+    font-size: 15px; /*Establece el tamaño del texto*/
+    font-weight: 600; /*Establece el grosor del texto/párrafo*/
+    color: #FF339C;
+}
+
+p.P-2 {
+    margin: 15px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FF33FF; /*Establece el color del texto sea hexadecimal, rgb, hsl siendo el primero el más utilizado*/
+    line-height: 30px; /*Establece el espacio entre las líneas de un párrafo*/
+    word-spacing: 3px; /*Modifica el espacio entre las palabras de un texto/párrafo*/
+}
+
+p.P-3 {
+    margin: 0%;
+    padding: 20px 5px 10px;
+    color: #BB33FF;
+    text-indent: 25px; /*Establece la sangría de la primera línea del texto*/
+}
+
+
+p.P-4 {
+    margin: 10px 3px 15px 5px;
+    padding: 30px;
+    color: #8033FF;
+    line-height: 18px;
+    text-align: center; /*Permite alinear el texto dentro del espacio/página/web (izquierda, centro, derecha, justificado)*/
+}
+
+p.P-5 {
+    margin: 13px 5px 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #4233FF;
+    line-height: 25px;
+    word-spacing: 2px;
+    text-indent: 50px;
+    text-align: left;
 }
