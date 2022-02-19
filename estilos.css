@@ -174,3 +174,19 @@ p.P-5 {
     text-indent: 50px;
     text-align: justify;
 }
+
+.Thumbnail {
+    width: 320px;
+    height: 320px;
+    border: 1px solid #d7d1d1;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.ThumbnailIMG {
+    width: 100%;
+    height: 240px;
+    background-image: url(./Img/prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
