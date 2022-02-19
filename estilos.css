@@ -217,3 +217,33 @@ p.navb{
     color: #fff;
     margin: 0;
 }*/
+
+/*Práctica de bottones MAYR-8*/
+
+button.boton1 {
+    background-color: #5ecabd;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button.boton2 {
+    background-color: #da4195;
+    border-color: #be0c2d;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button.boton3 {
+    background-color: #f0e130;
+    border-color: #6c6c6c;
+    border-radius: 5px;
+    color: #000;
+}
+
+button.boton4 {
+    background-color: #474bb8;
+    border-color: #0d2cc0;
+    border-radius: 5px;
+    color: #ead7e7;
+}
