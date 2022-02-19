@@ -128,39 +128,51 @@ p:nth-of-type(3){
     display: inline-block;
 }*/
 
-/*Práctica Modificación de Párrafos: Propiedades*/
+/*Práctica Modificación de Párrafos: Propiedades
+- MARGIN: Crea espacios alrededor del elemento (hacia adentro) en todas sus direcciones.
+- PADDING: Crea espacios alrededor del contenido hacia afuera.
+- FONT-SIZE: Establece el Tamaño del texto.
+- FONT-WEIGHT: Establece el grosor del texto.
+
 p.P-1 {
-    margin: 10px 5px; /*Crea espacios alrededor de un elemento (up,down,left,right) al que se le aplique la propiedad*/
-    padding: 4px 10px; /*Crea espacios al contenido del elemento en todas sus direcciones. Está dentro del margin*/
-    font-size: 15px; /*Establece el tamaño del texto*/
-    font-weight: 600; /*Establece el grosor del texto/párrafo*/
-    color: #FF339C;
+    margin: 10px 5px;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FF339C
 }
+
+- COLOR: Establece el color del texto más utilizado en Hexadecimal, puede ser tambien rgb o hsl.
+- LINE-HEIGHT: Demarca el espaciado entre las líneas de un párrafo.
+- WORD-SPACING: Cambia el espacio entre las palabras.
 
 p.P-2 {
     margin: 15px;
     padding: 5px;
     font-size: 15px;
     font-weight: 600;
-    color: #FF33FF; /*Establece el color del texto sea hexadecimal, rgb, hsl siendo el primero el más utilizado*/
-    line-height: 30px; /*Establece el espacio entre las líneas de un párrafo*/
-    word-spacing: 3px; /*Modifica el espacio entre las palabras de un texto/párrafo*/
+    color: #FF33FF;
+    line-height: 30px;
+    word-spacing: 3px;
 }
+
+- TEXT-INDENT: Marca la sangría de la 1era línea del texto.
 
 p.P-3 {
     margin: 0%;
     padding: 20px 5px 10px;
     color: #BB33FF;
-    text-indent: 25px; /*Establece la sangría de la primera línea del texto*/
+    text-indent: 25px; 
 }
 
+- TEXT-ALIGN: Alinea el texto/parrafo dentro del espacio/web (izquierda, centro, derecha, justificado -tipo Word-)
 
 p.P-4 {
     margin: 10px 3px 15px 5px;
     padding: 30px;
     color: #8033FF;
     line-height: 18px;
-    text-align: center; /*Permite alinear el texto dentro del espacio/página/web (izquierda, centro, derecha, justificado)*/
+    text-align: center;
 }
 
 p.P-5 {
@@ -173,8 +185,9 @@ p.P-5 {
     word-spacing: 2px;
     text-indent: 50px;
     text-align: justify;
-}
+}*/
 
+/*Práctica Thumbnail MAYR-6
 .Thumbnail {
     width: 320px;
     height: 320px;
@@ -189,4 +202,17 @@ p.P-5 {
     background-image: url(./Img/prueba.jpg);
     background-repeat: no-repeat;
     background-size: 100% 80%;
+}*/
+
+/*Práctica nav-bar MAYR-7*/
+
+.navbar{
+    width: 100%;
+    background-color: #479e94;
+    padding: 15px;
+}
+
+p.navb{
+    color: #fff;
+    margin: 0;
 }
